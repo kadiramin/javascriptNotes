@@ -1,26 +1,21 @@
 {
   "name": "javascript",
   "version": "0.0.0",
-  "description": "My Javascript notes and snippts",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www",
+    "debug": "DEBUG=javascript:* npm start",
+  "nodemon":"nodemon --exec npm start"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/kadiramin/javascriptNotes.git"
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1"
   },
-  "keywords": [
-    "javascript",
-    "ES6"
-  ],
-  "author": "KadirAmin <kadiramin@msn.com> (https://github.com/kadiramin)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/kadiramin/javascriptNotes/issues"
-  },
-  "homepage": "https://github.com/kadiramin/javascriptNotes#readme",
   "devDependencies": {
-    "express": "^5.0.0-beta.1"
+    "nodemon": "^2.0.16"
   }
 }
