@@ -1,3 +1,5 @@
 .DS_Store
 .npmrc
+.gitinore
+.*rc
 node_modules/
