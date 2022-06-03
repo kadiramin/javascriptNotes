@@ -1,0 +1,26 @@
+{
+  "name": "javascript",
+  "version": "0.0.0",
+  "description": "My Javascript notes and snippts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kadiramin/javascriptNotes.git"
+  },
+  "keywords": [
+    "javascript",
+    "ES6"
+  ],
+  "author": "KadirAmin <kadiramin@msn.com> (https://github.com/kadiramin)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kadiramin/javascriptNotes/issues"
+  },
+  "homepage": "https://github.com/kadiramin/javascriptNotes#readme",
+  "devDependencies": {
+    "express": "^5.0.0-beta.1"
+  }
+}
