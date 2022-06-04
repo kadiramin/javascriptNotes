@@ -1,11 +1,39 @@
+/*
+#F2F2F2
+#A6442E
+#D9B282
+#ABBF0F
+
+
+
+
+
+
+*/
+
+
+html{
+  background-color: #F2F2F2;
+  padding: 0;
+  margin: 0;
+}
 body {
   padding: 50px;
   font: .9rem "Lucida Grande", Helvetica, Arial, sans-serif;
-
+  background-color:#F2F2F2 ;
+}
+h1,h2,h3,h4,h5,h6{
+  color: #BF2CB5;
+}
+p{
+  color: #BF2CB5;
 }
 h1{
-  color: darkred;
+  color: #A6442E;
 }
 a {
   color: #00B7FF;
+}
+article{
+  background-color: #D9B282;
 }
